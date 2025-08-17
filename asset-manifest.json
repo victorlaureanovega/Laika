@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Laika/static/css/main.86954db4.css",
-    "main.js": "/Laika/static/js/main.23f7a03a.js",
+    "main.js": "/Laika/static/js/main.dafd9f98.js",
     "index.html": "/Laika/index.html",
     "main.86954db4.css.map": "/Laika/static/css/main.86954db4.css.map",
-    "main.23f7a03a.js.map": "/Laika/static/js/main.23f7a03a.js.map"
+    "main.dafd9f98.js.map": "/Laika/static/js/main.dafd9f98.js.map"
   },
   "entrypoints": [
     "static/css/main.86954db4.css",
-    "static/js/main.23f7a03a.js"
+    "static/js/main.dafd9f98.js"
   ]
 }
