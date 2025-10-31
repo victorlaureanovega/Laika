@@ -1,0 +1,24 @@
+[
+  {
+    "titulo": "El cielo de Laika",
+    "descripcion": [
+      "Un hombre se detiene en un páramo. Aguza el oído intentando escuchar algo mientras sueña un laberinto construido alrededor de un jardín. Se precipitan hacia él recuerdos frágiles de lluvia, dolor y piel. Camina temeroso, sosteniendo una pequeña pistola con ambas manos.",
+      "Al cabo de incontables minutos, se encuentra con un maniquí. Se exalta, apunta, dispara, falla. Mira fijamente el rostro liso, en busca de ojos. Aprieta sus párpados e imagina que el laberinto se encuentra en una estrella en el espacio exterior. Desde ahí es posible ver la Tierra, la Luna, satélites artificiales orbitando millones de vidas, como globos perdidos en el cielo.",
+      "El arma se dispara sola. Para nosotros, que sangramos lentamente hasta el amanecer, ese momento es percibido como la explosión de una supernova.",
+      "S. O. F.",
+      "V. L. V."
+    ],
+    "imagen": "/Laika.png",
+    "enlace": "/el-cielo-de-laika"
+  },
+  {
+    "titulo": "Túneles",
+    "descripcion": [
+      "De pronto todo se hace silencio. Las sombras de la tarde se apropian de la maleza crecida cuando brota un olor a animal muerto, un anochecer rencoroso y breve. Estoy en la vereda, esa retorcida boca de volcán, lenta, asustadiza, ruinosa y madriguera de ratas, de dientes secos y sembradíos de maíz por el lado de allá, detrás del muro que protege unas casas precisamente de estas cosas. Ni siquiera cuando el silencio aprenda a gritar, cuando las sombras comiencen a delatarse con quejidos y claudicaciones tempranas, ni cuando la vereda lleve a otro lugar (lo cual es imposible). Nadie podrá descifrar la imagen del silencio consumiendo esa fogata improvisada, o la de las ratas deslizándose bajo la hierba, sin antes adentrarse en estas pesadillas.",
+      "V. L. V.",
+      "S. O. F."
+    ],
+    "imagen": "/Túneles.png",
+    "enlace": "https://www.amazon.com.mx/dp/B0CKKTS121"
+  }
+]

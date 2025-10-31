@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/victo/OneDrive/Escritorio/laika/app/el-cielo-de-laika/page.tsx"],"sourcesContent":["// components/GaleriaTextos.tsx\r\nexport default function GaleriaTextos({ textos }: { textos: Array<{ titulo: string; contenido: string }> }) {\r\n  return (\r\n    <div className=\"grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto\">\r\n      {textos.map((texto, index) => (\r\n        <div key={index} className=\"bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow\">\r\n          <h3 className=\"text-lg font-semibold mb-3 text-gray-800\">{texto.titulo}</h3>\r\n          <p className=\"text-gray-600 leading-relaxed\">{texto.contenido}</p>\r\n        </div>\r\n      ))}\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":"AAAA,+BAA+B;;;;;;;AAChB,SAAS,cAAc,EAAE,MAAM,EAA4D;IACxG,qBACE,iRAAC;QAAI,WAAU;kBACZ,OAAO,GAAG,CAAC,CAAC,OAAO,sBAClB,iRAAC;gBAAgB,WAAU;;kCACzB,iRAAC;wBAAG,WAAU;kCAA4C,MAAM,MAAM;;;;;;kCACtE,iRAAC;wBAAE,WAAU;kCAAiC,MAAM,SAAS;;;;;;;eAFrD;;;;;;;;;;AAOlB","debugId":null}}]
+}

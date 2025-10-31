@@ -1,0 +1,53 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/OneDrive_Escritorio_laika_app_globals_04f0f9ed.css",
+      "static/chunks/ac4ab_next_dist_a0ea8760._.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_layout_tsx_c5bb7a98._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_81279f84._.js",
+      "static/chunks/ac4ab_next_dist_compiled_react-dom_f7a17b02._.js",
+      "static/chunks/ac4ab_next_dist_compiled_next-devtools_index_cc67cf23.js",
+      "static/chunks/ac4ab_next_dist_compiled_7837459f._.js",
+      "static/chunks/ac4ab_next_dist_client_77c0a6ed._.js",
+      "static/chunks/ac4ab_next_dist_5fd2dd29._.js",
+      "static/chunks/ac4ab_@swc_helpers_cjs_2afffaf5._.js",
+      "static/chunks/OneDrive_Escritorio_laika_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Escritorio_laika_3ccdc4cf._.js"
+    ],
+    "/el-cielo-de-laika/page": [
+      "static/chunks/OneDrive_Escritorio_laika_app_globals_04f0f9ed.css",
+      "static/chunks/ac4ab_next_dist_a0ea8760._.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_layout_tsx_c5bb7a98._.js",
+      "static/chunks/ac4ab_next_dist_client_components_builtin_global-error_55c63386.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_el-cielo-de-laika_Textos_tsx_aaba2814._.js",
+      "static/chunks/ac4ab_next_dist_compiled_react_ed222a4b._.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_el-cielo-de-laika_page_tsx_55c63386._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_81279f84._.js",
+      "static/chunks/ac4ab_next_dist_compiled_react-dom_f7a17b02._.js",
+      "static/chunks/ac4ab_next_dist_compiled_next-devtools_index_cc67cf23.js",
+      "static/chunks/ac4ab_next_dist_compiled_7837459f._.js",
+      "static/chunks/ac4ab_next_dist_client_77c0a6ed._.js",
+      "static/chunks/ac4ab_next_dist_5fd2dd29._.js",
+      "static/chunks/ac4ab_@swc_helpers_cjs_2afffaf5._.js",
+      "static/chunks/OneDrive_Escritorio_laika_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Escritorio_laika_3ccdc4cf._.js"
+    ],
+    "/page": [
+      "static/chunks/OneDrive_Escritorio_laika_app_globals_04f0f9ed.css",
+      "static/chunks/ac4ab_next_dist_a0ea8760._.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_layout_tsx_c5bb7a98._.js",
+      "static/chunks/ac4ab_next_dist_client_components_builtin_global-error_55c63386.js",
+      "static/chunks/ac4ab_next_dist_f94a5258._.js",
+      "static/chunks/OneDrive_Escritorio_laika_app_page_tsx_55c63386._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_81279f84._.js",
+      "static/chunks/ac4ab_next_dist_compiled_react-dom_f7a17b02._.js",
+      "static/chunks/ac4ab_next_dist_compiled_next-devtools_index_cc67cf23.js",
+      "static/chunks/ac4ab_next_dist_compiled_7837459f._.js",
+      "static/chunks/ac4ab_next_dist_client_77c0a6ed._.js",
+      "static/chunks/ac4ab_next_dist_5fd2dd29._.js",
+      "static/chunks/ac4ab_@swc_helpers_cjs_2afffaf5._.js",
+      "static/chunks/OneDrive_Escritorio_laika_a0ff3932._.js",
+      "static/chunks/turbopack-OneDrive_Escritorio_laika_3ccdc4cf._.js"
+    ]
+  }
+}
