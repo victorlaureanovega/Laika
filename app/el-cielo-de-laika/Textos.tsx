@@ -1,8 +1,11 @@
 'use client';
 import { useState } from 'react';
+import Image from "next/image";
 
+// Tarjetas de acordeón para los textos de la plaqueta
 export default function Textos() {
-  const [abierto, setAbierto] = useState<number | null>(null);
+  var estilosBoton = "w-full p-5 text-left text-white bg-[#6C757D] hover:bg-[#7F8C8D] transition-colors tracking-wide flex justify-between items-center cursor-pointer";
+  const [abierto, setAbierto] = useState<number | null>(null);    // Para abrir o cerrar una tarjeta
 
   return (
     <div className="max-w-3xl mx-auto space-y-4">
@@ -11,10 +14,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 1 ? null : 1)}
-          className="w-full p-5 text-left bg-gray-400 hover:bg-gray-300 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
-          <span className="font-medium"> Las estrellas </span>
-          <span>{abierto === 1 ? 'Cerrar' : 'Leer'}</span>
+          <p className="font-medium"> Las estrellas </p>
+          <span>{abierto === 1 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 1 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -238,10 +241,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 2 ? null : 2)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Barco de vapor </span>
-          <span>{abierto === 2 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 2 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 2 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -309,10 +312,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 3 ? null : 3)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Ambiente courrèges </span>
-          <span>{abierto === 3 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 3 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 3 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -409,10 +412,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 4 ? null : 4)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Luces naranjas </span>
-          <span>{abierto === 4 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 4 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 4 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -615,10 +618,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 5 ? null : 5)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Lágrimas en casa </span>
-          <span>{abierto === 5 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 5 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 5 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -705,10 +708,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 6 ? null : 6)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Besos en la distancia </span>
-          <span>{abierto === 6 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 6 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 6 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -834,10 +837,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 7 ? null : 7)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> La brújula Meucci </span>
-          <span>{abierto === 7 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 7 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 7 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -882,10 +885,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 8 ? null : 8)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> El Sol No Regresa </span>
-          <span>{abierto === 8 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 8 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 8 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -951,10 +954,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 9 ? null : 9)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Midori </span>
-          <span>{abierto === 9 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 9 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 9 && (
           <div className="p-7 bg-white text-right leading-relaxed">
@@ -1104,10 +1107,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 10 ? null : 10)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium"> Estudio de un corazón negro, Op. 2 </span>
-          <span>{abierto === 10 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 10 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 10 && (
           <div className="p-7 bg-white leading-relaxed">
@@ -1173,10 +1176,10 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 11 ? null : 11)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className={estilosBoton}
         >
           <span className="font-medium italic"> Epílogo </span>
-          <span>{abierto === 11 ? 'Cerrar' : 'Leer'}</span>
+          <span>{abierto === 11 ? (<Image src="/Cerrar.svg" alt="Cerrar" width={20} height={20} />) : (<Image src="/Desplegar.svg" alt="Cerrar" width={20} height={20} />)}</span>
         </button>
         {abierto === 11 && (
           <div className="leading-relaxed p-7 bg-white">
