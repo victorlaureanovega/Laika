@@ -11,7 +11,7 @@ export default function Textos() {
       <div className="rounded-lg overflow-hidden">
         <button
           onClick={() => setAbierto(abierto === 1 ? null : 1)}
-          className="w-full p-5 text-left bg-gray-300 hover:bg-gray-200 flex justify-between items-center cursor-pointer"
+          className="w-full p-5 text-left bg-gray-400 hover:bg-gray-300 flex justify-between items-center cursor-pointer"
         >
           <span className="font-medium"> Las estrellas </span>
           <span>{abierto === 1 ? 'Cerrar' : 'Leer'}</span>
